@@ -111,7 +111,7 @@ nav li {
     cursor: pointer;
 }
 
-nav li::before {
+/* nav li::before {
     counter-increment: list;
     content: counter(list);
     font-size: 24px;
@@ -123,4 +123,4 @@ nav li::before {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
