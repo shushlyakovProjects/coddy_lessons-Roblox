@@ -1,0 +1,9 @@
+
+section {
+    border: 1px solid rgb(55, 150, 172);
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(2px) brightness(0.4);
+}
