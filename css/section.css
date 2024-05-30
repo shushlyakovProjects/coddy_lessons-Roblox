@@ -81,3 +81,15 @@ section hr{
     color: aqua;
     font-weight: bold;
 }
+
+section .box__images2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+}
+section .box__images2 img{
+    width: 40%;
+    margin: 0;
+}

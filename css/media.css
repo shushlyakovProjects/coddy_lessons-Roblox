@@ -8,6 +8,13 @@
     section img{
         width: 100%;
     }
+    section .box__images2{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    section .box__images2 img{
+        width: 100%;
+    }
 }
 @media (max-width:500px){
     html{font-size: 14px;}
