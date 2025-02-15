@@ -123,6 +123,10 @@ section hr {
     color: rgb(89, 214, 243);
 }
 
+.small_image {
+    width: 30%;
+}
+
 section .box__images2 {
     display: flex;
     justify-content: center;
@@ -140,4 +144,7 @@ section .box__images2 img {
 section .box__images2 img:active{
     width: 80%;
     position: fixed;
+}
+section .small_image:active{
+    width: 40%;
 }
