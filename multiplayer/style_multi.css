@@ -1,0 +1,11 @@
+:root{
+    --main_color: rgb(12, 87, 208);
+}
+
+section{
+    border-color: var(--main_color) !important;
+}
+section img{
+    border-color: var(--main_color) !important;
+    box-shadow: 0 0 3px var(--main_color);
+}

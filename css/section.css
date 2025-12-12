@@ -1,5 +1,5 @@
 section {
-    border: 1px solid rgb(55, 150, 172);
+    border: 1px solid var(--main_color);
     width: 100%;
     padding: 20px;
     border-radius: 20px;
@@ -70,7 +70,7 @@ section img {
     object-fit: contain;
     margin: 20px auto;
     border-radius: 10px;
-    border: 1px solid rgb(89, 214, 243);
+    border: 1px solid var(--main_color);
     display: block;
     transition-duration: 0.5s;
     cursor: move;
@@ -81,8 +81,8 @@ section img:active{
 
 section hr {
     margin: 40px 0 20px;
-    border: 1px solid rgb(89, 214, 243);
-    box-shadow: 0 -2px 10px rgb(89, 214, 243);
+    border: 1px solid var(--main_color);
+    box-shadow: 0 -2px 10px var(--main_color);
     animation: animForHr 6s ease infinite alternate-reverse;
     position: relative;
     display: block;

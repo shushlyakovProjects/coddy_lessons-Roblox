@@ -34,20 +34,22 @@ p, li{
 :root {
     --black: rgb(30, 30, 30);
     --white: aliceblue;
+    --main_color: rgb(55, 150, 172);
+    --secondary_color: rgb(101, 133, 219);
 }
 
 body::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
     /* ширина scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-    background: rgb(79, 188, 212);
+    background: transparent;
     /* цвет дорожки */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(101, 133, 219);
+    background-color: var(--secondary_color);
     /* цвет плашки */
     border-radius: 3px;
 }
